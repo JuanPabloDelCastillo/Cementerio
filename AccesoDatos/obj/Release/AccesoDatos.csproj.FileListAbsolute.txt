@@ -1,0 +1,5 @@
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\bin\Release\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\bin\Release\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\obj\Release\AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\obj\Release\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\obj\Release\AccesoDatos.pdb

@@ -1,0 +1,49 @@
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Entidades\bin\Debug\Entidades.dll
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Entidades\bin\Debug\Entidades.pdb
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Entidades\bin\Debug\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Entidades\bin\Debug\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Entidades\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Entidades\obj\Debug\Entidades.dll
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Entidades\obj\Debug\Entidades.pdb
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Entidades\obj\Debug\ResolveAssemblyReference.cache
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Entidades\obj\Debug\Entidades.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Debug\Entidades.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Debug\Entidades.pdb
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Debug\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Debug\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\obj\Debug\Entidades.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Dario\Desktop\Cement\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Dario\Desktop\Cement\Entidades\bin\Debug\Entidades.dll
+C:\Users\Dario\Desktop\Cement\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Dario\Desktop\Cement\Entidades\bin\Debug\AccesoDatos.dll
+C:\Users\Dario\Desktop\Cement\Entidades\bin\Debug\AccesoDatos.pdb
+C:\Users\Dario\Desktop\Cement\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Dario\Desktop\Cement\Entidades\obj\Debug\Entidades.dll
+C:\Users\Dario\Desktop\Cement\Entidades\obj\Debug\Entidades.pdb
+C:\Users\B\Documents\Visual Studio 2015\Cement\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\B\Documents\Visual Studio 2015\Cement\Entidades\bin\Debug\Entidades.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Entidades\bin\Debug\Entidades.pdb
+C:\Users\B\Documents\Visual Studio 2015\Cement\Entidades\bin\Debug\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Entidades\bin\Debug\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2015\Cement\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\B\Documents\Visual Studio 2015\Cement\Entidades\obj\Debug\Entidades.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Entidades\obj\Debug\Entidades.pdb
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Debug\Entidades.dll
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Debug\Entidades.pdb
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Debug\AccesoDatos.dll
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Debug\AccesoDatos.pdb
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Entidades\obj\Debug\Entidades.dll
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Entidades\obj\Debug\Entidades.pdb
+C:\Git_Repos\Cement\Entidades\bin\Debug\Entidades.dll.config
+C:\Git_Repos\Cement\Entidades\bin\Debug\Entidades.dll
+C:\Git_Repos\Cement\Entidades\bin\Debug\Entidades.pdb
+C:\Git_Repos\Cement\Entidades\bin\Debug\AccesoDatos.dll
+C:\Git_Repos\Cement\Entidades\bin\Debug\AccesoDatos.pdb
+C:\Git_Repos\Cement\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Git_Repos\Cement\Entidades\obj\Debug\Entidades.dll
+C:\Git_Repos\Cement\Entidades\obj\Debug\Entidades.pdb

@@ -1,0 +1,34 @@
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\AccesoDatos\bin\Debug\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\AccesoDatos\bin\Debug\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\AccesoDatos\obj\Debug\AccesoDatos.pdb
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\AccesoDatos\bin\Debug\AccesoDatos.dll
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\AccesoDatos\bin\Debug\AccesoDatos.pdb
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\AccesoDatos\obj\Debug\AccesoDatos.dll
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\AccesoDatos\obj\Debug\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\bin\Debug\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\bin\Debug\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\obj\Debug\AccesoDatos.pdb
+C:\Users\Dario\Desktop\Cement\AccesoDatos\bin\Debug\AccesoDatos.dll
+C:\Users\Dario\Desktop\Cement\AccesoDatos\bin\Debug\AccesoDatos.pdb
+C:\Users\Dario\Desktop\Cement\AccesoDatos\obj\Debug\AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\Dario\Desktop\Cement\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Users\Dario\Desktop\Cement\AccesoDatos\obj\Debug\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2015\Cement\AccesoDatos\bin\Debug\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\AccesoDatos\bin\Debug\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2015\Cement\AccesoDatos\obj\Debug\AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\B\Documents\Visual Studio 2015\Cement\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\AccesoDatos\obj\Debug\AccesoDatos.pdb
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\bin\Debug\AccesoDatos.dll
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\bin\Debug\AccesoDatos.pdb
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\obj\Debug\AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\AccesoDatos\obj\Debug\AccesoDatos.pdb
+C:\Git_Repos\Cement\AccesoDatos\bin\Debug\AccesoDatos.dll
+C:\Git_Repos\Cement\AccesoDatos\bin\Debug\AccesoDatos.pdb
+C:\Git_Repos\Cement\AccesoDatos\obj\Debug\AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Git_Repos\Cement\AccesoDatos\obj\Debug\AccesoDatos.dll
+C:\Git_Repos\Cement\AccesoDatos\obj\Debug\AccesoDatos.pdb

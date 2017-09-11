@@ -1,0 +1,7 @@
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Release\Entidades.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Release\Entidades.pdb
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Release\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\bin\Release\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\obj\Release\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\obj\Release\Entidades.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Entidades\obj\Release\Entidades.pdb

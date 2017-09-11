@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B92BCC99-F65C-4162-8EC2-ED04DC7E2A28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cement</RootNamespace>
+    <AssemblyName>Cement</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Cement.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CemDataSet.cs">
+      <DependentUpon>CemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CementerioDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CementerioDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CementerioDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CementerioDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CementerioDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CementerioDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\Acceso.cs" />
+    <Compile Include="Clases\Conexion.cs" />
+    <Compile Include="Clases\Encriptamiento.cs" />
+    <Compile Include="Clases\Encriptar_Desencriptar.cs" />
+    <Compile Include="Clases\Mantenimiento.cs" />
+    <Compile Include="Clases\Service.cs" />
+    <Compile Include="Consulta Oeste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta Oeste.Designer.cs">
+      <DependentUpon>Consulta Oeste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsultarOeste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConsultarOeste.Designer.cs">
+      <DependentUpon>FormConsultarOeste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Vista\Acerca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Acerca.Designer.cs">
+      <DependentUpon>Acerca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Consulta Norte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Consulta Norte.Designer.cs">
+      <DependentUpon>Consulta Norte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Consultita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Consultita.Designer.cs">
+      <DependentUpon>Consultita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FormConsultarNorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FormConsultarNorte.Designer.cs">
+      <DependentUpon>FormConsultarNorte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Mantenimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Mantenimientos.Designer.cs">
+      <DependentUpon>Mantenimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Menues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Menues.Designer.cs">
+      <DependentUpon>Menues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vista\Reporter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Reporter.Designer.cs">
+      <DependentUpon>Reporter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Reporterint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Reporterint.Designer.cs">
+      <DependentUpon>Reporterint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Usuarios_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Usuarios_Add.Designer.cs">
+      <DependentUpon>Usuarios_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00001_Inhuma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00001_Inhuma.Designer.cs">
+      <DependentUpon>_00001_Inhuma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00001_InhumaJardin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00001_InhumaJardin.Designer.cs">
+      <DependentUpon>_00001_InhumaJardin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00001_InhumaNorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00001_InhumaNorte.Designer.cs">
+      <DependentUpon>_00001_InhumaNorte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_000022_TrasladoExNorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_000022_TrasladoExNorte.Designer.cs">
+      <DependentUpon>_000022_TrasladoExNorte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_000022_TrasladoExtJardin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_000022_TrasladoExtJardin.Designer.cs">
+      <DependentUpon>_000022_TrasladoExtJardin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_000022_TrasladoExtOeste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_000022_TrasladoExtOeste.Designer.cs">
+      <DependentUpon>_000022_TrasladoExtOeste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00002_Causante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00002_Causante.Designer.cs">
+      <DependentUpon>_00002_Causante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00002_CausanteJardin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00002_CausanteJardin.Designer.cs">
+      <DependentUpon>_00002_CausanteJardin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00002_CausanteNorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00002_CausanteNorte.Designer.cs">
+      <DependentUpon>_00002_CausanteNorte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00003_Cement_Tipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00003_Cement_Tipo.Designer.cs">
+      <DependentUpon>_00003_Cement_Tipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00004_Empresa_N.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00004_Empresa_N.Designer.cs">
+      <DependentUpon>_00004_Empresa_N.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00005_Empresa_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00005_Empresa_Add.Designer.cs">
+      <DependentUpon>_00005_Empresa_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00006_Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00006_Empleado.Designer.cs">
+      <DependentUpon>_00006_Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00007_EmpleadoN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00007_EmpleadoN.Designer.cs">
+      <DependentUpon>_00007_EmpleadoN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00008_Empleado_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00008_Empleado_Add.Designer.cs">
+      <DependentUpon>_00008_Empleado_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00009_Funcion_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00009_Funcion_Add.Designer.cs">
+      <DependentUpon>_00009_Funcion_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00010_BuscarEmp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00010_BuscarEmp.Designer.cs">
+      <DependentUpon>_00010_BuscarEmp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00012_Traslado_ExternoJardin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00012_Traslado_ExternoJardin.Designer.cs">
+      <DependentUpon>_00012_Traslado_ExternoJardin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00012_Traslado_ExternoNorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00012_Traslado_ExternoNorte.Designer.cs">
+      <DependentUpon>_00012_Traslado_ExternoNorte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00012_Traslado_ExternoOeste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00012_Traslado_ExternoOeste.Designer.cs">
+      <DependentUpon>_00012_Traslado_ExternoOeste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00013_Nuevo_Cement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00013_Nuevo_Cement.Designer.cs">
+      <DependentUpon>_00013_Nuevo_Cement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00014_Nichos_Registrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00014_Nichos_Registrados.Designer.cs">
+      <DependentUpon>_00014_Nichos_Registrados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00015_Nuevo_Nicho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00015_Nuevo_Nicho.Designer.cs">
+      <DependentUpon>_00015_Nuevo_Nicho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00016_Nicho_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00016_Nicho_Add.Designer.cs">
+      <DependentUpon>_00016_Nicho_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00017_Traslado_InternoJardin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00017_Traslado_InternoJardin.Designer.cs">
+      <DependentUpon>_00017_Traslado_InternoJardin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00017_Traslado_InternoNorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00017_Traslado_InternoNorte.Designer.cs">
+      <DependentUpon>_00017_Traslado_InternoNorte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00017_Traslado_InternoOeste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00017_Traslado_InternoOeste.Designer.cs">
+      <DependentUpon>_00017_Traslado_InternoOeste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00018_Traslado_Interno_Jardin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00018_Traslado_Interno_Jardin.Designer.cs">
+      <DependentUpon>_00018_Traslado_Interno_Jardin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00018_Traslado_Interno_Oeste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00018_Traslado_Interno_Oeste.Designer.cs">
+      <DependentUpon>_00018_Traslado_Interno_Oeste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00018_Traslado_Interno_Norte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00018_Traslado_Interno_Norte.Designer.cs">
+      <DependentUpon>_00018_Traslado_Interno_Norte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00019_Consultas_Traslados_Externos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00019_Consultas_Traslados_Externos.Designer.cs">
+      <DependentUpon>_00019_Consultas_Traslados_Externos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00020_Consultas_Traslados_Dni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00020_Consultas_Traslados_Dni.Designer.cs">
+      <DependentUpon>_00020_Consultas_Traslados_Dni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00020_Consultas_Traslados_Interno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00020_Consultas_Traslados_Interno.Designer.cs">
+      <DependentUpon>_00020_Consultas_Traslados_Interno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00021_Historicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00021_Historicos.Designer.cs">
+      <DependentUpon>_00021_Historicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\_00022_HistoricosVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\_00022_HistoricosVista.Designer.cs">
+      <DependentUpon>_00022_HistoricosVista.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Consulta Oeste.resx">
+      <DependentUpon>Consulta Oeste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultarOeste.resx">
+      <DependentUpon>FormConsultarOeste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Acerca.resx">
+      <DependentUpon>Acerca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Consulta Norte.resx">
+      <DependentUpon>Consulta Norte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Consultita.resx">
+      <DependentUpon>Consultita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FormConsultarNorte.resx">
+      <DependentUpon>FormConsultarNorte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Mantenimientos.resx">
+      <DependentUpon>Mantenimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Menues.resx">
+      <DependentUpon>Menues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Report1.rdlc" />
+    <EmbeddedResource Include="Vista\Report2.rdlc" />
+    <EmbeddedResource Include="Vista\Reporter.resx">
+      <DependentUpon>Reporter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Reporterint.resx">
+      <DependentUpon>Reporterint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Usuarios_Add.resx">
+      <DependentUpon>Usuarios_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00001_Inhuma.resx">
+      <DependentUpon>_00001_Inhuma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00001_InhumaJardin.resx">
+      <DependentUpon>_00001_InhumaJardin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00001_InhumaNorte.resx">
+      <DependentUpon>_00001_InhumaNorte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_000022_TrasladoExNorte.resx">
+      <DependentUpon>_000022_TrasladoExNorte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_000022_TrasladoExtJardin.resx">
+      <DependentUpon>_000022_TrasladoExtJardin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_000022_TrasladoExtOeste.resx">
+      <DependentUpon>_000022_TrasladoExtOeste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00002_Causante.resx">
+      <DependentUpon>_00002_Causante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00002_CausanteJardin.resx">
+      <DependentUpon>_00002_CausanteJardin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00002_CausanteNorte.resx">
+      <DependentUpon>_00002_CausanteNorte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00003_Cement_Tipo.resx">
+      <DependentUpon>_00003_Cement_Tipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00004_Empresa_N.resx">
+      <DependentUpon>_00004_Empresa_N.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00005_Empresa_Add.resx">
+      <DependentUpon>_00005_Empresa_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00006_Empleado.resx">
+      <DependentUpon>_00006_Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00007_EmpleadoN.resx">
+      <DependentUpon>_00007_EmpleadoN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00008_Empleado_Add.resx">
+      <DependentUpon>_00008_Empleado_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00009_Funcion_Add.resx">
+      <DependentUpon>_00009_Funcion_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00010_BuscarEmp.resx">
+      <DependentUpon>_00010_BuscarEmp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00012_Traslado_ExternoJardin.resx">
+      <DependentUpon>_00012_Traslado_ExternoJardin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00012_Traslado_ExternoNorte.resx">
+      <DependentUpon>_00012_Traslado_ExternoNorte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00012_Traslado_ExternoOeste.resx">
+      <DependentUpon>_00012_Traslado_ExternoOeste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00013_Nuevo_Cement.resx">
+      <DependentUpon>_00013_Nuevo_Cement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00014_Nichos_Registrados.resx">
+      <DependentUpon>_00014_Nichos_Registrados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00015_Nuevo_Nicho.resx">
+      <DependentUpon>_00015_Nuevo_Nicho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00016_Nicho_Add.resx">
+      <DependentUpon>_00016_Nicho_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00017_Traslado_InternoJardin.resx">
+      <DependentUpon>_00017_Traslado_InternoJardin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00017_Traslado_InternoNorte.resx">
+      <DependentUpon>_00017_Traslado_InternoNorte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00017_Traslado_InternoOeste.resx">
+      <DependentUpon>_00017_Traslado_InternoOeste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00018_Traslado_Interno_Jardin.resx">
+      <DependentUpon>_00018_Traslado_Interno_Jardin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00018_Traslado_Interno_Oeste.resx">
+      <DependentUpon>_00018_Traslado_Interno_Oeste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00018_Traslado_Interno_Norte.resx">
+      <DependentUpon>_00018_Traslado_Interno_Norte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00019_Consultas_Traslados_Externos.resx">
+      <DependentUpon>_00019_Consultas_Traslados_Externos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00020_Consultas_Traslados_Dni.resx">
+      <DependentUpon>_00020_Consultas_Traslados_Dni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00020_Consultas_Traslados_Interno.resx">
+      <DependentUpon>_00020_Consultas_Traslados_Interno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00021_Historicos.resx">
+      <DependentUpon>_00021_Historicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\_00022_HistoricosVista.resx">
+      <DependentUpon>_00022_HistoricosVista.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CemDataSet.xsc">
+      <DependentUpon>CemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CemDataSet.xss">
+      <DependentUpon>CemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CementerioDataSet.xsc">
+      <DependentUpon>CementerioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CementerioDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CementerioDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CementerioDataSet.xss">
+      <DependentUpon>CementerioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CementerioDataSet1.xsc">
+      <DependentUpon>CementerioDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CementerioDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CementerioDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CementerioDataSet1.xss">
+      <DependentUpon>CementerioDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CementerioDataSet2.xsc">
+      <DependentUpon>CementerioDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CementerioDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CementerioDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CementerioDataSet2.xss">
+      <DependentUpon>CementerioDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Vista\DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Vista\DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Vista\DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{92D9F9B8-1CC3-484F-A3D7-AB7ED4AF33C6}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\eliminar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Cancelar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Img\add.png" />
+    <Content Include="Img\book_search.png" />
+    <Content Include="Img\Borrar.png" />
+    <Content Include="Img\cementerybackground3.jpg" />
+    <Content Include="Img\consulta.png" />
+    <Content Include="Img\delet.png" />
+    <Content Include="Img\enterrar.png" />
+    <Content Include="Img\Sale.png" />
+    <Content Include="Img\search_image.png" />
+    <Content Include="Img\trasladoexterno.png" />
+    <Content Include="Img\trasladointerno.png" />
+    <Content Include="Resources\accept.png" />
+    <Content Include="Resources\add.png" />
+    <Content Include="Resources\add_female_user.png" />
+    <Content Include="Resources\attach_image.png" />
+    <Content Include="Resources\book_search.png" />
+    <Content Include="Resources\Borrar.png" />
+    <Content Include="Resources\delet.png" />
+    <Content Include="Resources\delete.png" />
+    <Content Include="Resources\delete1.png" />
+    <Content Include="Resources\female_male_users.png" />
+    <Content Include="Resources\help.png" />
+    <Content Include="Resources\ICONOFIN.png" />
+    <Content Include="Resources\image.png" />
+    <Content Include="Resources\key.png" />
+    <Content Include="Resources\loguito2.jpg" />
+    <Content Include="Resources\marca de agua.png" />
+    <Content Include="Resources\package_warning.png" />
+    <Content Include="Resources\Sale.png" />
+    <Content Include="Resources\save.png" />
+    <Content Include="Resources\search_image.png" />
+    <Content Include="Resources\shut_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

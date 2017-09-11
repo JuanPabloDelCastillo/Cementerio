@@ -1,0 +1,412 @@
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\bin\Debug\Cement.exe.config
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\bin\Debug\Cement.exe
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\bin\Debug\Cement.pdb
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.Form1.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.Properties.Resources.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_Inhuma.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_Causante.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00003_Cement_Tipo.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00004_Empresa_N.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00005_Empresa_Add.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.exe
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.pdb
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00007_EmpleadoN.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00006_Empleado.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00009_Funcion_Add.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00010_BuscarEmp.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\bin\Debug\Entidades.dll
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\bin\Debug\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\bin\Debug\Entidades.pdb
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\bin\Debug\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00008_Empleado_Add.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\bin\Debug\Cement.exe.config
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.exe
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.pdb
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\bin\Debug\Cement.exe
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\bin\Debug\Cement.pdb
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\bin\Debug\Entidades.dll
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\bin\Debug\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\bin\Debug\Entidades.pdb
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\bin\Debug\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.Form1.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.Properties.Resources.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.Vista._00001_Inhuma.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.Vista._00002_Causante.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.Vista._00003_Cement_Tipo.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.Vista._00004_Empresa_N.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.Vista._00005_Empresa_Add.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.Vista._00006_Empleado.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.Vista._00007_EmpleadoN.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.Vista._00008_Empleado_Add.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.Vista._00009_Funcion_Add.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\Cement.Vista._00010_BuscarEmp.resources
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\B\Documents\Visual Studio 2010\Projects\Cement2\Cement\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\bin\Debug\Cement.exe.config
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.exe
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.pdb
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\bin\Debug\Cement.exe
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\bin\Debug\Cement.pdb
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\bin\Debug\Entidades.dll
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\bin\Debug\AccesoDatos.dll
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\bin\Debug\Entidades.pdb
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\bin\Debug\AccesoDatos.pdb
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.Form1.resources
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.Properties.Resources.resources
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_Inhuma.resources
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_Causante.resources
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.Vista._00003_Cement_Tipo.resources
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.Vista._00004_Empresa_N.resources
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.Vista._00005_Empresa_Add.resources
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.Vista._00006_Empleado.resources
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.Vista._00007_EmpleadoN.resources
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.Vista._00008_Empleado_Add.resources
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.Vista._00009_Funcion_Add.resources
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\Cement.Vista._00010_BuscarEmp.resources
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\TRABAJOS\Carrera-UTN\CEMENT-PROYECTO\Cement\Cement\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.csprojResolveAssemblyReference.cache
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Acerca.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Consultita.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Mantenimientos.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Menues.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Login.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Principal.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Properties.Resources.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Usuarios_Add.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_Inhuma.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_InhumaJardin.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_InhumaNorte.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExNorte.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExtJardin.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExtOeste.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_Causante.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_CausanteJardin.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_CausanteNorte.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00003_Cement_Tipo.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00004_Empresa_N.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00005_Empresa_Add.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00006_Empleado.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00007_EmpleadoN.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00008_Empleado_Add.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00009_Funcion_Add.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00010_BuscarEmp.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoJardin.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoNorte.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoOeste.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00013_Nuevo_Cement.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00014_Nichos_Registrados.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement._00015_Nuevo_Nicho.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00016_Nicho_Add.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00020_Consultas_Traslados_Dni.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00020_Consultas_Traslados_Interno.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00021_Historicos.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00022_HistoricosVista.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.csproj.GenerateResource.Cache
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\Cement.exe.config
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\Cement.exe
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\Cement.pdb
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\Entidades.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\Entidades.pdb
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.exe
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.pdb
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00017_Traslado_InternoJardin.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00017_Traslado_InternoOeste.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\RdlCompile.cache
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\RdlCompile.compiled
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Reporter.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00019_Consultas_Traslados_Externos.resources
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\Cement.exe.config
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\Cement.exe
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\Cement.pdb
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\Entidades.dll
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\AccesoDatos.dll
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\Entidades.pdb
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\Entidades.dll.config
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\AccesoDatos.pdb
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Dario\Desktop\Cement\Cement\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.csprojResolveAssemblyReference.cache
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista.Acerca.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista.Consultita.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista.Mantenimientos.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Menues.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista.Login.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Principal.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Properties.Resources.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista.Reporter.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista.Usuarios_Add.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_Inhuma.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_InhumaJardin.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_InhumaNorte.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExNorte.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExtJardin.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExtOeste.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_Causante.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_CausanteJardin.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_CausanteNorte.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00003_Cement_Tipo.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00004_Empresa_N.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00005_Empresa_Add.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00006_Empleado.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00007_EmpleadoN.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00008_Empleado_Add.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00009_Funcion_Add.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00010_BuscarEmp.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoJardin.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoNorte.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoOeste.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00013_Nuevo_Cement.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00014_Nichos_Registrados.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement._00015_Nuevo_Nicho.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00016_Nicho_Add.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00017_Traslado_InternoJardin.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00017_Traslado_InternoOeste.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00018_Traslado_Interno.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00019_Consultas_Traslados_Externos.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00020_Consultas_Traslados_Dni.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00020_Consultas_Traslados_Interno.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00021_Historicos.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.Vista._00022_HistoricosVista.resources
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.csproj.GenerateResource.Cache
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.exe
+C:\Users\Dario\Desktop\Cement\Cement\obj\x86\Debug\Cement.pdb
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\Cement.exe.config
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\Cement.exe
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\Cement.pdb
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\Entidades.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\AccesoDatos.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\Entidades.pdb
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\AccesoDatos.pdb
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.csprojResolveAssemblyReference.cache
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista.Acerca.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista.Consultita.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista.Mantenimientos.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Menues.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista.Login.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Principal.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Properties.Resources.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista.Reporter.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista.Usuarios_Add.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_Inhuma.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_InhumaJardin.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_InhumaNorte.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExNorte.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExtJardin.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExtOeste.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_Causante.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_CausanteJardin.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_CausanteNorte.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00003_Cement_Tipo.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00004_Empresa_N.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00005_Empresa_Add.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00006_Empleado.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00007_EmpleadoN.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00008_Empleado_Add.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00009_Funcion_Add.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00010_BuscarEmp.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoJardin.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoNorte.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoOeste.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00013_Nuevo_Cement.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00014_Nichos_Registrados.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement._00015_Nuevo_Nicho.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00016_Nicho_Add.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00017_Traslado_InternoJardin.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00017_Traslado_InternoOeste.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00018_Traslado_Interno.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00019_Consultas_Traslados_Externos.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00020_Consultas_Traslados_Dni.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00020_Consultas_Traslados_Interno.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00021_Historicos.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.Vista._00022_HistoricosVista.resources
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.csproj.GenerateResource.Cache
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\RdlCompile.cache
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\RdlCompile.compiled
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.exe
+C:\Users\B\Documents\Visual Studio 2015\Cement\Cement\obj\x86\Debug\Cement.pdb
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00017_Traslado_InternoNorte.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00018_Traslado_Interno_Oeste.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00018_Traslado_Interno_Norte.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00018_Traslado_Interno_Jardin.resources
+C:\Users\B\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Reporterint.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.csprojResolveAssemblyReference.cache
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Consulta_Oeste.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.FormConsultarOeste.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Acerca.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Consulta_Norte.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Consultita.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.FormConsultarNorte.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Mantenimientos.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Menues.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Login.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Principal.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Properties.Resources.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Reporter.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Reporterint.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista.Usuarios_Add.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_Inhuma.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_InhumaJardin.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_InhumaNorte.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExNorte.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExtJardin.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExtOeste.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_Causante.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_CausanteJardin.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_CausanteNorte.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00003_Cement_Tipo.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00004_Empresa_N.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00005_Empresa_Add.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00006_Empleado.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00007_EmpleadoN.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00008_Empleado_Add.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00009_Funcion_Add.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00010_BuscarEmp.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoJardin.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoNorte.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoOeste.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00013_Nuevo_Cement.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00014_Nichos_Registrados.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement._00015_Nuevo_Nicho.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00016_Nicho_Add.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00017_Traslado_InternoJardin.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00017_Traslado_InternoNorte.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00017_Traslado_InternoOeste.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00018_Traslado_Interno_Jardin.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00018_Traslado_Interno_Oeste.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00018_Traslado_Interno_Norte.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00019_Consultas_Traslados_Externos.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00020_Consultas_Traslados_Dni.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00020_Consultas_Traslados_Interno.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00021_Historicos.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.Vista._00022_HistoricosVista.resources
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.csproj.GenerateResource.Cache
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\RdlCompile.cache
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\RdlCompile.compiled
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\Cement.exe.config
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\Cement.exe
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\Cement.pdb
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\Entidades.dll
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\AccesoDatos.dll
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\Entidades.pdb
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\AccesoDatos.pdb
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.exe
+C:\Users\B-PC\Documents\Visual Studio 2015\Projects\Cement\Cement\obj\x86\Debug\Cement.pdb
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.csprojResolveAssemblyReference.cache
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Consulta_Oeste.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.FormConsultarOeste.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista.Acerca.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista.Consulta_Norte.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista.Consultita.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista.FormConsultarNorte.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista.Mantenimientos.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Menues.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista.Login.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Principal.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Properties.Resources.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista.Reporter.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista.Reporterint.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista.Usuarios_Add.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_Inhuma.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_InhumaJardin.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00001_InhumaNorte.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExNorte.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExtJardin.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._000022_TrasladoExtOeste.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_Causante.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_CausanteJardin.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00002_CausanteNorte.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00003_Cement_Tipo.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00004_Empresa_N.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00005_Empresa_Add.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00006_Empleado.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00007_EmpleadoN.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00008_Empleado_Add.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00009_Funcion_Add.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00010_BuscarEmp.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoJardin.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoNorte.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00012_Traslado_ExternoOeste.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00013_Nuevo_Cement.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00014_Nichos_Registrados.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement._00015_Nuevo_Nicho.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00016_Nicho_Add.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00017_Traslado_InternoJardin.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00017_Traslado_InternoNorte.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00017_Traslado_InternoOeste.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00018_Traslado_Interno_Jardin.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00018_Traslado_Interno_Oeste.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00018_Traslado_Interno_Norte.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00019_Consultas_Traslados_Externos.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00020_Consultas_Traslados_Dni.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00020_Consultas_Traslados_Interno.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00021_Historicos.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.Vista._00022_HistoricosVista.resources
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.csproj.GenerateResource.Cache
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\RdlCompile.cache
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\RdlCompile.compiled
+C:\Git_Repos\Cement\Cement\bin\Debug\Cement.exe.config
+C:\Git_Repos\Cement\Cement\bin\Debug\Cement.exe
+C:\Git_Repos\Cement\Cement\bin\Debug\Cement.pdb
+C:\Git_Repos\Cement\Cement\bin\Debug\Entidades.dll
+C:\Git_Repos\Cement\Cement\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Git_Repos\Cement\Cement\bin\Debug\AccesoDatos.dll
+C:\Git_Repos\Cement\Cement\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Git_Repos\Cement\Cement\bin\Debug\Entidades.pdb
+C:\Git_Repos\Cement\Cement\bin\Debug\AccesoDatos.pdb
+C:\Git_Repos\Cement\Cement\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Git_Repos\Cement\Cement\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Git_Repos\Cement\Cement\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Git_Repos\Cement\Cement\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Git_Repos\Cement\Cement\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Git_Repos\Cement\Cement\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Git_Repos\Cement\Cement\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Git_Repos\Cement\Cement\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Git_Repos\Cement\Cement\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Git_Repos\Cement\Cement\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.exe
+C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.pdb

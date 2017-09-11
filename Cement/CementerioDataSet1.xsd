@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CementerioDataSet1" targetNamespace="http://tempuri.org/CementerioDataSet1.xsd" xmlns:mstns="http://tempuri.org/CementerioDataSet1.xsd" xmlns="http://tempuri.org/CementerioDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CementerioConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CementerioConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Cement.Properties.Settings.GlobalReference.Default.CementerioConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TrasladoIntTableAdapter" GeneratorDataComponentClassName="TrasladoIntTableAdapter" Name="TrasladoInt" UserDataComponentName="TrasladoIntTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CementerioConnectionString (Settings)" DbObjectName="Cementerio.dbo.TrasladoInt" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[TrasladoInt] WHERE (([id_Nomenc] = @Original_id_Nomenc) AND ([Dni] = @Original_Dni) AND ([Nombre] = @Original_Nombre) AND ((@IsNull_Codcem = 1 AND [Codcem] IS NULL) OR ([Codcem] = @Original_Codcem)) AND ((@IsNull_Seccion = 1 AND [Seccion] IS NULL) OR ([Seccion] = @Original_Seccion)) AND ((@IsNull_Cuadro = 1 AND [Cuadro] IS NULL) OR ([Cuadro] = @Original_Cuadro)) AND ((@IsNull_Zona = 1 AND [Zona] IS NULL) OR ([Zona] = @Original_Zona)) AND ((@IsNull_Lote = 1 AND [Lote] IS NULL) OR ([Lote] = @Original_Lote)) AND ((@IsNull_N_Codcem = 1 AND [N_Codcem] IS NULL) OR ([N_Codcem] = @Original_N_Codcem)) AND ((@IsNull_N_Seccion = 1 AND [N_Seccion] IS NULL) OR ([N_Seccion] = @Original_N_Seccion)) AND ((@IsNull_N_Cuadro = 1 AND [N_Cuadro] IS NULL) OR ([N_Cuadro] = @Original_N_Cuadro)) AND ((@IsNull_N_Zona = 1 AND [N_Zona] IS NULL) OR ([N_Zona] = @Original_N_Zona)) AND ((@IsNull_N_Lote = 1 AND [N_Lote] IS NULL) OR ([N_Lote] = @Original_N_Lote)) AND ((@IsNull_N_NumeroNicho = 1 AND [N_NumeroNicho] IS NULL) OR ([N_NumeroNicho] = @Original_N_NumeroNicho)) AND ((@IsNull_N_TamanoNichoT = 1 AND [N_TamanoNichoT] IS NULL) OR ([N_TamanoNichoT] = @Original_N_TamanoNichoT)) AND ((@IsNull_N_GaleriaN = 1 AND [N_GaleriaN] IS NULL) OR ([N_GaleriaN] = @Original_N_GaleriaN)) AND ((@IsNull_N_EstadosNichos = 1 AND [N_EstadosNichos] IS NULL) OR ([N_EstadosNichos] = @Original_N_EstadosNichos)) AND ((@IsNull_OtroCem = 1 AND [OtroCem] IS NULL) OR ([OtroCem] = @Original_OtroCem)) AND ((@IsNull_id_Construccion = 1 AND [id_Construccion] IS NULL) OR ([id_Construccion] = @Original_id_Construccion)) AND ((@IsNull_Nombre_C = 1 AND [Nombre_C] IS NULL) OR ([Nombre_C] = @Original_Nombre_C)) AND ((@IsNull_id_NConstrucc = 1 AND [id_NConstrucc] IS NULL) OR ([id_NConstrucc] = @Original_id_NConstrucc)) AND ((@IsNull_NCNombre = 1 AND [NCNombre] IS NULL) OR ([NCNombre] = @Original_NCNombre)) AND ((@IsNull_TamNicho = 1 AND [TamNicho] IS NULL) OR ([TamNicho] = @Original_TamNicho)) AND ((@IsNull_Galeria = 1 AND [Galeria] IS NULL) OR ([Galeria] = @Original_Galeria)) AND ((@IsNull_Nicho_Numero = 1 AND [Nicho_Numero] IS NULL) OR ([Nicho_Numero] = @Original_Nicho_Numero)) AND ((@IsNull_Nombre_Emp = 1 AND [Nombre_Emp] IS NULL) OR ([Nombre_Emp] = @Original_Nombre_Emp)) AND ((@IsNull_Nombre_TipoTramite = 1 AND [Nombre_TipoTramite] IS NULL) OR ([Nombre_TipoTramite] = @Original_Nombre_TipoTramite)) AND ((@IsNull_Fecha_TrasladoInt = 1 AND [Fecha_TrasladoInt] IS NULL) OR ([Fecha_TrasladoInt] = @Original_Fecha_TrasladoInt)) AND ((@IsNull_Observaciones = 1 AND [Observaciones] IS NULL) OR ([Observaciones] = @Original_Observaciones)) AND ((@IsNull_Estado = 1 AND [Estado] IS NULL) OR ([Estado] = @Original_Estado)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_id_Nomenc" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_Nomenc" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Dni" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Dni" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Nombre" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Codcem" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Codcem" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Codcem" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Codcem" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Seccion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Seccion" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Seccion" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Seccion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Cuadro" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Cuadro" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Cuadro" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Cuadro" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Zona" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Zona" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Zona" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Zona" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Lote" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Lote" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Lote" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Lote" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_Codcem" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_Codcem" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_Codcem" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Codcem" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_Seccion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_Seccion" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_Seccion" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Seccion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_Cuadro" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_Cuadro" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_Cuadro" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Cuadro" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_Zona" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_Zona" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_Zona" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Zona" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_Lote" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_Lote" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_Lote" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Lote" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_NumeroNicho" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_NumeroNicho" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_NumeroNicho" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_NumeroNicho" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_TamanoNichoT" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_TamanoNichoT" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_TamanoNichoT" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_TamanoNichoT" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_GaleriaN" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_GaleriaN" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_GaleriaN" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_GaleriaN" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_EstadosNichos" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_EstadosNichos" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_EstadosNichos" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_EstadosNichos" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_OtroCem" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="OtroCem" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_OtroCem" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="OtroCem" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_id_Construccion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_Construccion" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_id_Construccion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_Construccion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Nombre_C" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Nombre_C" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Nombre_C" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre_C" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_id_NConstrucc" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_NConstrucc" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_id_NConstrucc" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_NConstrucc" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_NCNombre" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="NCNombre" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_NCNombre" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="NCNombre" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_TamNicho" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TamNicho" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_TamNicho" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="TamNicho" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Galeria" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Galeria" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Galeria" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Galeria" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Nicho_Numero" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Nicho_Numero" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Nicho_Numero" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nicho_Numero" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Nombre_Emp" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Nombre_Emp" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Nombre_Emp" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre_Emp" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Nombre_TipoTramite" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Nombre_TipoTramite" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Nombre_TipoTramite" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre_TipoTramite" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Fecha_TrasladoInt" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Fecha_TrasladoInt" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_Fecha_TrasladoInt" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Fecha_TrasladoInt" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Observaciones" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Observaciones" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Observaciones" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Observaciones" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Estado" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Estado" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@Original_Estado" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="Estado" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[TrasladoInt] ([id_Nomenc], [Dni], [Nombre], [Codcem], [Seccion], [Cuadro], [Zona], [Lote], [N_Codcem], [N_Seccion], [N_Cuadro], [N_Zona], [N_Lote], [N_NumeroNicho], [N_TamanoNichoT], [N_GaleriaN], [N_EstadosNichos], [OtroCem], [id_Construccion], [Nombre_C], [id_NConstrucc], [NCNombre], [TamNicho], [Galeria], [Nicho_Numero], [Nombre_Emp], [Nombre_TipoTramite], [Fecha_TrasladoInt], [Observaciones], [Estado]) VALUES (@id_Nomenc, @Dni, @Nombre, @Codcem, @Seccion, @Cuadro, @Zona, @Lote, @N_Codcem, @N_Seccion, @N_Cuadro, @N_Zona, @N_Lote, @N_NumeroNicho, @N_TamanoNichoT, @N_GaleriaN, @N_EstadosNichos, @OtroCem, @id_Construccion, @Nombre_C, @id_NConstrucc, @NCNombre, @TamNicho, @Galeria, @Nicho_Numero, @Nombre_Emp, @Nombre_TipoTramite, @Fecha_TrasladoInt, @Observaciones, @Estado);
+SELECT id_Nomenc, Dni, Nombre, Codcem, Seccion, Cuadro, Zona, Lote, N_Codcem, N_Seccion, N_Cuadro, N_Zona, N_Lote, N_NumeroNicho, N_TamanoNichoT, N_GaleriaN, N_EstadosNichos, OtroCem, id_Construccion, Nombre_C, id_NConstrucc, NCNombre, TamNicho, Galeria, Nicho_Numero, Nombre_Emp, Nombre_TipoTramite, Fecha_TrasladoInt, Observaciones, Estado FROM TrasladoInt WHERE (Dni = @Dni) AND (id_Nomenc = @id_Nomenc)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@id_Nomenc" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_Nomenc" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Dni" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Dni" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Nombre" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Codcem" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Codcem" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Seccion" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Seccion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Cuadro" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Cuadro" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Zona" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Zona" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Lote" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Lote" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_Codcem" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Codcem" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_Seccion" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Seccion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_Cuadro" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Cuadro" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_Zona" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Zona" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_Lote" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Lote" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_NumeroNicho" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_NumeroNicho" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_TamanoNichoT" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_TamanoNichoT" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_GaleriaN" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_GaleriaN" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_EstadosNichos" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_EstadosNichos" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@OtroCem" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="OtroCem" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@id_Construccion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_Construccion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Nombre_C" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre_C" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@id_NConstrucc" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_NConstrucc" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@NCNombre" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="NCNombre" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@TamNicho" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="TamNicho" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Galeria" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Galeria" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Nicho_Numero" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nicho_Numero" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Nombre_Emp" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre_Emp" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Nombre_TipoTramite" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre_TipoTramite" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Fecha_TrasladoInt" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Fecha_TrasladoInt" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Observaciones" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Observaciones" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@Estado" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="Estado" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id_Nomenc, Dni, Nombre, Codcem, Seccion, Cuadro, Zona, Lote, N_Codcem, N_Seccion, N_Cuadro, N_Zona, N_Lote, N_NumeroNicho, N_TamanoNichoT, N_GaleriaN, N_EstadosNichos, OtroCem, id_Construccion, Nombre_C, id_NConstrucc, NCNombre, TamNicho, Galeria, Nicho_Numero, Nombre_Emp, Nombre_TipoTramite, Fecha_TrasladoInt, Observaciones, Estado FROM dbo.TrasladoInt</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[TrasladoInt] SET [id_Nomenc] = @id_Nomenc, [Dni] = @Dni, [Nombre] = @Nombre, [Codcem] = @Codcem, [Seccion] = @Seccion, [Cuadro] = @Cuadro, [Zona] = @Zona, [Lote] = @Lote, [N_Codcem] = @N_Codcem, [N_Seccion] = @N_Seccion, [N_Cuadro] = @N_Cuadro, [N_Zona] = @N_Zona, [N_Lote] = @N_Lote, [N_NumeroNicho] = @N_NumeroNicho, [N_TamanoNichoT] = @N_TamanoNichoT, [N_GaleriaN] = @N_GaleriaN, [N_EstadosNichos] = @N_EstadosNichos, [OtroCem] = @OtroCem, [id_Construccion] = @id_Construccion, [Nombre_C] = @Nombre_C, [id_NConstrucc] = @id_NConstrucc, [NCNombre] = @NCNombre, [TamNicho] = @TamNicho, [Galeria] = @Galeria, [Nicho_Numero] = @Nicho_Numero, [Nombre_Emp] = @Nombre_Emp, [Nombre_TipoTramite] = @Nombre_TipoTramite, [Fecha_TrasladoInt] = @Fecha_TrasladoInt, [Observaciones] = @Observaciones, [Estado] = @Estado WHERE (([id_Nomenc] = @Original_id_Nomenc) AND ([Dni] = @Original_Dni) AND ([Nombre] = @Original_Nombre) AND ((@IsNull_Codcem = 1 AND [Codcem] IS NULL) OR ([Codcem] = @Original_Codcem)) AND ((@IsNull_Seccion = 1 AND [Seccion] IS NULL) OR ([Seccion] = @Original_Seccion)) AND ((@IsNull_Cuadro = 1 AND [Cuadro] IS NULL) OR ([Cuadro] = @Original_Cuadro)) AND ((@IsNull_Zona = 1 AND [Zona] IS NULL) OR ([Zona] = @Original_Zona)) AND ((@IsNull_Lote = 1 AND [Lote] IS NULL) OR ([Lote] = @Original_Lote)) AND ((@IsNull_N_Codcem = 1 AND [N_Codcem] IS NULL) OR ([N_Codcem] = @Original_N_Codcem)) AND ((@IsNull_N_Seccion = 1 AND [N_Seccion] IS NULL) OR ([N_Seccion] = @Original_N_Seccion)) AND ((@IsNull_N_Cuadro = 1 AND [N_Cuadro] IS NULL) OR ([N_Cuadro] = @Original_N_Cuadro)) AND ((@IsNull_N_Zona = 1 AND [N_Zona] IS NULL) OR ([N_Zona] = @Original_N_Zona)) AND ((@IsNull_N_Lote = 1 AND [N_Lote] IS NULL) OR ([N_Lote] = @Original_N_Lote)) AND ((@IsNull_N_NumeroNicho = 1 AND [N_NumeroNicho] IS NULL) OR ([N_NumeroNicho] = @Original_N_NumeroNicho)) AND ((@IsNull_N_TamanoNichoT = 1 AND [N_TamanoNichoT] IS NULL) OR ([N_TamanoNichoT] = @Original_N_TamanoNichoT)) AND ((@IsNull_N_GaleriaN = 1 AND [N_GaleriaN] IS NULL) OR ([N_GaleriaN] = @Original_N_GaleriaN)) AND ((@IsNull_N_EstadosNichos = 1 AND [N_EstadosNichos] IS NULL) OR ([N_EstadosNichos] = @Original_N_EstadosNichos)) AND ((@IsNull_OtroCem = 1 AND [OtroCem] IS NULL) OR ([OtroCem] = @Original_OtroCem)) AND ((@IsNull_id_Construccion = 1 AND [id_Construccion] IS NULL) OR ([id_Construccion] = @Original_id_Construccion)) AND ((@IsNull_Nombre_C = 1 AND [Nombre_C] IS NULL) OR ([Nombre_C] = @Original_Nombre_C)) AND ((@IsNull_id_NConstrucc = 1 AND [id_NConstrucc] IS NULL) OR ([id_NConstrucc] = @Original_id_NConstrucc)) AND ((@IsNull_NCNombre = 1 AND [NCNombre] IS NULL) OR ([NCNombre] = @Original_NCNombre)) AND ((@IsNull_TamNicho = 1 AND [TamNicho] IS NULL) OR ([TamNicho] = @Original_TamNicho)) AND ((@IsNull_Galeria = 1 AND [Galeria] IS NULL) OR ([Galeria] = @Original_Galeria)) AND ((@IsNull_Nicho_Numero = 1 AND [Nicho_Numero] IS NULL) OR ([Nicho_Numero] = @Original_Nicho_Numero)) AND ((@IsNull_Nombre_Emp = 1 AND [Nombre_Emp] IS NULL) OR ([Nombre_Emp] = @Original_Nombre_Emp)) AND ((@IsNull_Nombre_TipoTramite = 1 AND [Nombre_TipoTramite] IS NULL) OR ([Nombre_TipoTramite] = @Original_Nombre_TipoTramite)) AND ((@IsNull_Fecha_TrasladoInt = 1 AND [Fecha_TrasladoInt] IS NULL) OR ([Fecha_TrasladoInt] = @Original_Fecha_TrasladoInt)) AND ((@IsNull_Observaciones = 1 AND [Observaciones] IS NULL) OR ([Observaciones] = @Original_Observaciones)) AND ((@IsNull_Estado = 1 AND [Estado] IS NULL) OR ([Estado] = @Original_Estado)));
+SELECT id_Nomenc, Dni, Nombre, Codcem, Seccion, Cuadro, Zona, Lote, N_Codcem, N_Seccion, N_Cuadro, N_Zona, N_Lote, N_NumeroNicho, N_TamanoNichoT, N_GaleriaN, N_EstadosNichos, OtroCem, id_Construccion, Nombre_C, id_NConstrucc, NCNombre, TamNicho, Galeria, Nicho_Numero, Nombre_Emp, Nombre_TipoTramite, Fecha_TrasladoInt, Observaciones, Estado FROM TrasladoInt WHERE (Dni = @Dni) AND (id_Nomenc = @id_Nomenc)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@id_Nomenc" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_Nomenc" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Dni" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Dni" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Nombre" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Codcem" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Codcem" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Seccion" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Seccion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Cuadro" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Cuadro" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Zona" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Zona" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Lote" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Lote" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_Codcem" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Codcem" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_Seccion" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Seccion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_Cuadro" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Cuadro" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_Zona" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Zona" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_Lote" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Lote" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_NumeroNicho" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_NumeroNicho" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_TamanoNichoT" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_TamanoNichoT" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_GaleriaN" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_GaleriaN" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@N_EstadosNichos" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_EstadosNichos" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@OtroCem" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="OtroCem" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@id_Construccion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_Construccion" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Nombre_C" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre_C" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@id_NConstrucc" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_NConstrucc" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@NCNombre" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="NCNombre" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@TamNicho" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="TamNicho" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Galeria" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Galeria" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Nicho_Numero" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nicho_Numero" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Nombre_Emp" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre_Emp" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Nombre_TipoTramite" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre_TipoTramite" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Fecha_TrasladoInt" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Fecha_TrasladoInt" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Observaciones" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Observaciones" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@Estado" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="Estado" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_id_Nomenc" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_Nomenc" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Dni" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Dni" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Nombre" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Codcem" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Codcem" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Codcem" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Codcem" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Seccion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Seccion" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Seccion" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Seccion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Cuadro" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Cuadro" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Cuadro" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Cuadro" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Zona" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Zona" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Zona" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Zona" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Lote" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Lote" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Lote" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Lote" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_Codcem" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_Codcem" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_Codcem" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Codcem" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_Seccion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_Seccion" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_Seccion" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Seccion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_Cuadro" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_Cuadro" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_Cuadro" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Cuadro" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_Zona" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_Zona" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_Zona" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Zona" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_Lote" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_Lote" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_Lote" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_Lote" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_NumeroNicho" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_NumeroNicho" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_NumeroNicho" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_NumeroNicho" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_TamanoNichoT" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_TamanoNichoT" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_TamanoNichoT" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_TamanoNichoT" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_GaleriaN" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_GaleriaN" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_GaleriaN" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_GaleriaN" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_N_EstadosNichos" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="N_EstadosNichos" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_N_EstadosNichos" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="N_EstadosNichos" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_OtroCem" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="OtroCem" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_OtroCem" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="OtroCem" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_id_Construccion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_Construccion" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_id_Construccion" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_Construccion" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Nombre_C" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Nombre_C" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Nombre_C" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre_C" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_id_NConstrucc" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_NConstrucc" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_id_NConstrucc" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id_NConstrucc" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_NCNombre" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="NCNombre" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_NCNombre" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="NCNombre" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_TamNicho" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="TamNicho" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_TamNicho" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="TamNicho" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Galeria" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Galeria" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Galeria" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Galeria" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Nicho_Numero" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Nicho_Numero" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Nicho_Numero" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nicho_Numero" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Nombre_Emp" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Nombre_Emp" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Nombre_Emp" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre_Emp" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Nombre_TipoTramite" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Nombre_TipoTramite" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Nombre_TipoTramite" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nombre_TipoTramite" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Fecha_TrasladoInt" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Fecha_TrasladoInt" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_Fecha_TrasladoInt" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Fecha_TrasladoInt" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Observaciones" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Observaciones" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_Observaciones" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Observaciones" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_Estado" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Estado" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@Original_Estado" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="Estado" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_Nomenc" DataSetColumn="id_Nomenc" />
+              <Mapping SourceColumn="Dni" DataSetColumn="Dni" />
+              <Mapping SourceColumn="Nombre" DataSetColumn="Nombre" />
+              <Mapping SourceColumn="Codcem" DataSetColumn="Codcem" />
+              <Mapping SourceColumn="Seccion" DataSetColumn="Seccion" />
+              <Mapping SourceColumn="Cuadro" DataSetColumn="Cuadro" />
+              <Mapping SourceColumn="Zona" DataSetColumn="Zona" />
+              <Mapping SourceColumn="Lote" DataSetColumn="Lote" />
+              <Mapping SourceColumn="N_Codcem" DataSetColumn="N_Codcem" />
+              <Mapping SourceColumn="N_Seccion" DataSetColumn="N_Seccion" />
+              <Mapping SourceColumn="N_Cuadro" DataSetColumn="N_Cuadro" />
+              <Mapping SourceColumn="N_Zona" DataSetColumn="N_Zona" />
+              <Mapping SourceColumn="N_Lote" DataSetColumn="N_Lote" />
+              <Mapping SourceColumn="N_NumeroNicho" DataSetColumn="N_NumeroNicho" />
+              <Mapping SourceColumn="N_TamanoNichoT" DataSetColumn="N_TamanoNichoT" />
+              <Mapping SourceColumn="N_GaleriaN" DataSetColumn="N_GaleriaN" />
+              <Mapping SourceColumn="N_EstadosNichos" DataSetColumn="N_EstadosNichos" />
+              <Mapping SourceColumn="OtroCem" DataSetColumn="OtroCem" />
+              <Mapping SourceColumn="id_Construccion" DataSetColumn="id_Construccion" />
+              <Mapping SourceColumn="Nombre_C" DataSetColumn="Nombre_C" />
+              <Mapping SourceColumn="id_NConstrucc" DataSetColumn="id_NConstrucc" />
+              <Mapping SourceColumn="NCNombre" DataSetColumn="NCNombre" />
+              <Mapping SourceColumn="TamNicho" DataSetColumn="TamNicho" />
+              <Mapping SourceColumn="Galeria" DataSetColumn="Galeria" />
+              <Mapping SourceColumn="Nicho_Numero" DataSetColumn="Nicho_Numero" />
+              <Mapping SourceColumn="Nombre_Emp" DataSetColumn="Nombre_Emp" />
+              <Mapping SourceColumn="Nombre_TipoTramite" DataSetColumn="Nombre_TipoTramite" />
+              <Mapping SourceColumn="Fecha_TrasladoInt" DataSetColumn="Fecha_TrasladoInt" />
+              <Mapping SourceColumn="Observaciones" DataSetColumn="Observaciones" />
+              <Mapping SourceColumn="Estado" DataSetColumn="Estado" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CementerioDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="CementerioDataSet1" msprop:Generator_UserDSName="CementerioDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TrasladoInt" msprop:Generator_TableClassName="TrasladoIntDataTable" msprop:Generator_TableVarName="tableTrasladoInt" msprop:Generator_TablePropName="TrasladoInt" msprop:Generator_RowDeletingName="TrasladoIntRowDeleting" msprop:Generator_RowChangingName="TrasladoIntRowChanging" msprop:Generator_RowEvHandlerName="TrasladoIntRowChangeEventHandler" msprop:Generator_RowDeletedName="TrasladoIntRowDeleted" msprop:Generator_UserTableName="TrasladoInt" msprop:Generator_RowChangedName="TrasladoIntRowChanged" msprop:Generator_RowEvArgName="TrasladoIntRowChangeEvent" msprop:Generator_RowClassName="TrasladoIntRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_Nomenc" msprop:Generator_ColumnVarNameInTable="columnid_Nomenc" msprop:Generator_ColumnPropNameInRow="id_Nomenc" msprop:Generator_ColumnPropNameInTable="id_NomencColumn" msprop:Generator_UserColumnName="id_Nomenc" type="xs:int" />
+              <xs:element name="Dni" msprop:Generator_ColumnVarNameInTable="columnDni" msprop:Generator_ColumnPropNameInRow="Dni" msprop:Generator_ColumnPropNameInTable="DniColumn" msprop:Generator_UserColumnName="Dni">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Codcem" msprop:Generator_ColumnVarNameInTable="columnCodcem" msprop:Generator_ColumnPropNameInRow="Codcem" msprop:Generator_ColumnPropNameInTable="CodcemColumn" msprop:Generator_UserColumnName="Codcem" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Seccion" msprop:Generator_ColumnVarNameInTable="columnSeccion" msprop:Generator_ColumnPropNameInRow="Seccion" msprop:Generator_ColumnPropNameInTable="SeccionColumn" msprop:Generator_UserColumnName="Seccion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cuadro" msprop:Generator_ColumnVarNameInTable="columnCuadro" msprop:Generator_ColumnPropNameInRow="Cuadro" msprop:Generator_ColumnPropNameInTable="CuadroColumn" msprop:Generator_UserColumnName="Cuadro" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Zona" msprop:Generator_ColumnVarNameInTable="columnZona" msprop:Generator_ColumnPropNameInRow="Zona" msprop:Generator_ColumnPropNameInTable="ZonaColumn" msprop:Generator_UserColumnName="Zona" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Lote" msprop:Generator_ColumnVarNameInTable="columnLote" msprop:Generator_ColumnPropNameInRow="Lote" msprop:Generator_ColumnPropNameInTable="LoteColumn" msprop:Generator_UserColumnName="Lote" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="N_Codcem" msprop:Generator_ColumnVarNameInTable="columnN_Codcem" msprop:Generator_ColumnPropNameInRow="N_Codcem" msprop:Generator_ColumnPropNameInTable="N_CodcemColumn" msprop:Generator_UserColumnName="N_Codcem" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="N_Seccion" msprop:Generator_ColumnVarNameInTable="columnN_Seccion" msprop:Generator_ColumnPropNameInRow="N_Seccion" msprop:Generator_ColumnPropNameInTable="N_SeccionColumn" msprop:Generator_UserColumnName="N_Seccion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="N_Cuadro" msprop:Generator_ColumnVarNameInTable="columnN_Cuadro" msprop:Generator_ColumnPropNameInRow="N_Cuadro" msprop:Generator_ColumnPropNameInTable="N_CuadroColumn" msprop:Generator_UserColumnName="N_Cuadro" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="N_Zona" msprop:Generator_ColumnVarNameInTable="columnN_Zona" msprop:Generator_ColumnPropNameInRow="N_Zona" msprop:Generator_ColumnPropNameInTable="N_ZonaColumn" msprop:Generator_UserColumnName="N_Zona" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="N_Lote" msprop:Generator_ColumnVarNameInTable="columnN_Lote" msprop:Generator_ColumnPropNameInRow="N_Lote" msprop:Generator_ColumnPropNameInTable="N_LoteColumn" msprop:Generator_UserColumnName="N_Lote" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="N_NumeroNicho" msprop:Generator_ColumnVarNameInTable="columnN_NumeroNicho" msprop:Generator_ColumnPropNameInRow="N_NumeroNicho" msprop:Generator_ColumnPropNameInTable="N_NumeroNichoColumn" msprop:Generator_UserColumnName="N_NumeroNicho" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="N_TamanoNichoT" msprop:Generator_ColumnVarNameInTable="columnN_TamanoNichoT" msprop:Generator_ColumnPropNameInRow="N_TamanoNichoT" msprop:Generator_ColumnPropNameInTable="N_TamanoNichoTColumn" msprop:Generator_UserColumnName="N_TamanoNichoT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="N_GaleriaN" msprop:Generator_ColumnVarNameInTable="columnN_GaleriaN" msprop:Generator_ColumnPropNameInRow="N_GaleriaN" msprop:Generator_ColumnPropNameInTable="N_GaleriaNColumn" msprop:Generator_UserColumnName="N_GaleriaN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="N_EstadosNichos" msprop:Generator_ColumnVarNameInTable="columnN_EstadosNichos" msprop:Generator_ColumnPropNameInRow="N_EstadosNichos" msprop:Generator_ColumnPropNameInTable="N_EstadosNichosColumn" msprop:Generator_UserColumnName="N_EstadosNichos" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OtroCem" msprop:Generator_ColumnVarNameInTable="columnOtroCem" msprop:Generator_ColumnPropNameInRow="OtroCem" msprop:Generator_ColumnPropNameInTable="OtroCemColumn" msprop:Generator_UserColumnName="OtroCem" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_Construccion" msprop:Generator_ColumnVarNameInTable="columnid_Construccion" msprop:Generator_ColumnPropNameInRow="id_Construccion" msprop:Generator_ColumnPropNameInTable="id_ConstruccionColumn" msprop:Generator_UserColumnName="id_Construccion" type="xs:int" minOccurs="0" />
+              <xs:element name="Nombre_C" msprop:Generator_ColumnVarNameInTable="columnNombre_C" msprop:Generator_ColumnPropNameInRow="Nombre_C" msprop:Generator_ColumnPropNameInTable="Nombre_CColumn" msprop:Generator_UserColumnName="Nombre_C" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_NConstrucc" msprop:Generator_ColumnVarNameInTable="columnid_NConstrucc" msprop:Generator_ColumnPropNameInRow="id_NConstrucc" msprop:Generator_ColumnPropNameInTable="id_NConstruccColumn" msprop:Generator_UserColumnName="id_NConstrucc" type="xs:int" minOccurs="0" />
+              <xs:element name="NCNombre" msprop:Generator_ColumnVarNameInTable="columnNCNombre" msprop:Generator_ColumnPropNameInRow="NCNombre" msprop:Generator_ColumnPropNameInTable="NCNombreColumn" msprop:Generator_UserColumnName="NCNombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TamNicho" msprop:Generator_ColumnVarNameInTable="columnTamNicho" msprop:Generator_ColumnPropNameInRow="TamNicho" msprop:Generator_ColumnPropNameInTable="TamNichoColumn" msprop:Generator_UserColumnName="TamNicho" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Galeria" msprop:Generator_ColumnVarNameInTable="columnGaleria" msprop:Generator_ColumnPropNameInRow="Galeria" msprop:Generator_ColumnPropNameInTable="GaleriaColumn" msprop:Generator_UserColumnName="Galeria" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nicho_Numero" msprop:Generator_ColumnVarNameInTable="columnNicho_Numero" msprop:Generator_ColumnPropNameInRow="Nicho_Numero" msprop:Generator_ColumnPropNameInTable="Nicho_NumeroColumn" msprop:Generator_UserColumnName="Nicho_Numero" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nombre_Emp" msprop:Generator_ColumnVarNameInTable="columnNombre_Emp" msprop:Generator_ColumnPropNameInRow="Nombre_Emp" msprop:Generator_ColumnPropNameInTable="Nombre_EmpColumn" msprop:Generator_UserColumnName="Nombre_Emp" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nombre_TipoTramite" msprop:Generator_ColumnVarNameInTable="columnNombre_TipoTramite" msprop:Generator_ColumnPropNameInRow="Nombre_TipoTramite" msprop:Generator_ColumnPropNameInTable="Nombre_TipoTramiteColumn" msprop:Generator_UserColumnName="Nombre_TipoTramite" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fecha_TrasladoInt" msprop:Generator_ColumnVarNameInTable="columnFecha_TrasladoInt" msprop:Generator_ColumnPropNameInRow="Fecha_TrasladoInt" msprop:Generator_ColumnPropNameInTable="Fecha_TrasladoIntColumn" msprop:Generator_UserColumnName="Fecha_TrasladoInt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Observaciones" msprop:Generator_ColumnVarNameInTable="columnObservaciones" msprop:Generator_ColumnPropNameInRow="Observaciones" msprop:Generator_ColumnPropNameInTable="ObservacionesColumn" msprop:Generator_UserColumnName="Observaciones" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Estado" msprop:Generator_ColumnVarNameInTable="columnEstado" msprop:Generator_ColumnPropNameInRow="Estado" msprop:Generator_ColumnPropNameInTable="EstadoColumn" msprop:Generator_UserColumnName="Estado" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TrasladoInt" />
+      <xs:field xpath="mstns:id_Nomenc" />
+      <xs:field xpath="mstns:Dni" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
