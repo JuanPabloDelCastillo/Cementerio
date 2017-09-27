@@ -410,3 +410,6 @@ C:\Git_Repos\Cement\Cement\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources
 C:\Git_Repos\Cement\Cement\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
 C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.exe
 C:\Git_Repos\Cement\Cement\obj\x86\Debug\Cement.pdb
+C:\Github_Repos\Cement\Cement\bin\Debug\Cement.exe.config
+C:\Github_Repos\Cement\Cement\obj\x86\Debug\Cement.exe
+C:\Github_Repos\Cement\Cement\obj\x86\Debug\Cement.pdb
